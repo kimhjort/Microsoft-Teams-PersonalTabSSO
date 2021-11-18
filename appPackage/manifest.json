@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.1",
+  "id": "5e9df6ed-3b18-4189-8bfa-66da908588e1",
+  "packageName": "com.contoso.teamsauthsso",
+  "developer": {
+    "name": "inLogic A/S",
+    "websiteUrl": "https://www.inlogic.dk",
+    "privacyUrl": "https://www.inlogic.dk/privacy",
+    "termsOfUseUrl": "https://www.inlogic.dk/termsofuse"
+  },
+  "name": {
+    "short": "inlogic - bruger info",
+    "full": "inlogic - bruger info"
+  },
+  "description": {
+    "short": "inlogic - bruger info",
+    "full": "inlogic - bruger info"
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#60A18E",
+  "staticTabs": [
+    {
+      "entityId": "mainpage",
+      "name": "Main",
+      "contentUrl": "https://28cd-87-48-162-154.ngrok.io/Home/Index",
+      "scopes": [ "personal" ]
+    }
+  ],
+  "permissions": [ "identity" ],
+  "validDomains": [
+    "*.ngrok.io"
+  ],
+  "webApplicationInfo": {
+    "id": "5e9df6ed-3b18-4189-8bfa-66da908588e1",
+    "resource": "api://28cd-87-48-162-154.ngrok.io/5e9df6ed-3b18-4189-8bfa-66da908588e1"
+  }
+}
