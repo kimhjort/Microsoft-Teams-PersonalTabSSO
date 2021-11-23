@@ -10,13 +10,12 @@ This sample illustrates how to implement SSO authentication for Teams Tab.
 1) Clone the repository
 
     ```bash
-    git clone https://github.com/OfficeDev/Microsoft-Teams-Samples.git
+    git clone https://github.com/kimhjort/Microsoft-Teams-PersonalTabSSO.git
     ```
 
 1) If you are using Visual Studio
   - Launch Visual Studio
   - File -> Open -> Project/Solution
-  - Navigate to `samples/tab-personal-sso-quickstart/csharp_dotnetcore` folder
   - Select `PersonalTabSSO.csproj` file
 
 1) Run ngrok - point to port 3978

@@ -337,3 +337,4 @@ appsettings.Development.json
 SyncToGithub/
 
 Office365info.md
+wwwroot/lib/
