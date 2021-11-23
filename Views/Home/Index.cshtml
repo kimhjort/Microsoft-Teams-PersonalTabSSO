@@ -1,8 +1,42 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<h1>User profile app</h1>
-<div id="divError" style="display: none"></div>
-<button onclick="requestConsent()" id="consent" style="display:none;">Authenticate</button>
-<img id="userPhoto" src="" style="display: none"></img>
-<div id="divGraphProfile" style="display: none"></div>
+
+<div class="panel" id="errorPanel" style="display: none;margin-bottom:2rem;">
+    <div id="divError" style="display: none"></div>
+    <div style="width:100px;margin:0.5rem;">
+        <button onclick="requestConsent()" id="consent" style="display:none;" class="button-primary">Authenticate</button>
+    </div>
+</div>
+
+<div style="width:400px;float:left;">
+    <div class="panel">
+        <div class="panel-header">
+            <h1>
+                <span id="yourName">name</span> <span class="presenceholder">
+                    <span id="myPresence" class="presence unknown">?</span>
+                </span>
+            </h1>
+        </div>
+        <div class="panel-body">
+            <img id="userPhoto" src="" style="display: none" class="rounded-circle"></img>
+            <div id="divGraphProfile" style="display: none"></div>
+        </div>
+    </div>
+</div>
+
+<div style="width:400px;float:left;margin-left:2rem;">
+    <div class="panel">
+        <div class="panel-header">
+            <h1>
+                <span id="managerName">name</span> <span class="presenceholder">
+                    <span id="managerPresence" class="presence unknown">?</span>
+                </span>
+            </h1>
+        </div>
+        <div class="panel-body">
+            <img id="ManagerPhoto" src="" style="display: none" class="rounded-circle"></img>
+            <div id="divManagerProfile" style="display: none"></div>
+        </div>
+    </div>
+</div>

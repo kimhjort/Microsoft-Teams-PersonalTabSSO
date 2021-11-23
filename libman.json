@@ -3,7 +3,7 @@
   "defaultProvider": "unpkg",
   "libraries": [
     {
-      "library": "@microsoft/teams-js@1.4.1",
+      "library": "@microsoft/teams-js@1.8.0",
       "destination": "wwwroot/lib/microsoft/teams-js/",
       "files": [
         "dist/MicrosoftTeams.min.js",
@@ -23,8 +23,11 @@
       "library": "bootstrap@4.5.3",
       "destination": "wwwroot/lib/bootstrap/",
       "files": [
+        "dist/js/bootstrap.bundle.min.js",
+        "dist/js/bootstrap.bundle.min.js.map",
         "dist/css/bootstrap.min.css",
-        "dist/css/bootstrap.min.css.map"
+        "dist/css/bootstrap.min.css.map",
+        "dist/css/bootstrap.css"
       ]
     }
   ]

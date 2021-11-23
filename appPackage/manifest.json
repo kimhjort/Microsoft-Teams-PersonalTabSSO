@@ -1,9 +1,9 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "id": "5e9df6ed-3b18-4189-8bfa-66da908588e1",
-  "packageName": "com.contoso.teamsauthsso",
+  "packageName": "com.inlogicas.userinfo-app",
   "developer": {
     "name": "inLogic A/S",
     "websiteUrl": "https://www.inlogic.dk",
@@ -11,12 +11,12 @@
     "termsOfUseUrl": "https://www.inlogic.dk/termsofuse"
   },
   "name": {
-    "short": "inlogic - bruger info",
-    "full": "inlogic - bruger info"
+    "short": "inlogic - User info",
+    "full": "inlogic - User info"
   },
   "description": {
-    "short": "inlogic - bruger info",
-    "full": "inlogic - bruger info"
+    "short": "inlogic - User info",
+    "full": "inlogic - User info"
   },
   "icons": {
     "outline": "outline.png",

@@ -1,0 +1,63 @@
+﻿html, body, div.surface, div.panel {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+body {
+    background-color:transparent !important;
+}
+
+div.panel {
+    padding: 15px;
+}
+
+.panel-header h1 {
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 2rem;
+}
+
+.pb-3 {
+    margin: 20px;
+}
+
+.presenceholder {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.presence {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    font-size: 8px;
+    color: white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    .presence.unknown {
+        background-color: grey;
+    }
+
+    .presence.available {
+        background-color: green;
+    }
+
+    .presence.busy {
+        background-color: red;
+    }
+
+    .presence.donotdisturb {
+        background-color: red;
+        font-size: 12px;
+        font-weight:bold;
+    }
+
+    .presence.away {
+        background-color: yellow;
+    }
