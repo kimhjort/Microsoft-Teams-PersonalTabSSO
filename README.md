@@ -57,6 +57,8 @@ This sample illustrates how to implement SSO authentication for Teams Tab.
     * offline_access
     * OpenId
     * profile
+    * Presence.Read.All
+    * User.ReadBasic.All
 -   Click on Add permissions. Please make sure to grant the admin consent for the required permissions.
 13. Navigate to **Authentication**
     If an app hasn't been granted IT admin consent, users will have to provide consent the first time they use an app.
